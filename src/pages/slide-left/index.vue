@@ -1,6 +1,5 @@
 <template>
  <div class='page'>
-   <!-- -->
    <block v-for="(item, index) in mockdata" :key="index" >
    <slide-left v-bind="item" :index="item.index" @handle="handle"></slide-left>
    </block>
@@ -17,9 +16,6 @@
         handleres: null,
         mockdata
       }
-    },
-    computed: {
-
     },
     methods: {
       handle (data) {
