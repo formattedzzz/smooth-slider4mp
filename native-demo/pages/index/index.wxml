@@ -1,0 +1,14 @@
+
+<view class='page'>
+  <block wx:for="{{mockdata}}" wx:key="index">
+    <slide-left
+    img="{{item.img}}"
+    info="{{item.info}}"
+    title="{{item.title}}"
+    desc="{{item.desc}}"
+    icon="{{item.icon}}"
+    index="{{item.index}}"
+    bindhandle="handle"></slide-left>
+  </block>
+  <view style="padding: 20px; text-align: center;color: #0c0;">{{handleres}}</view>
+</view>

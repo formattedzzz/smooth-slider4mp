@@ -1,0 +1,36 @@
+
+<view class='page'>
+  <movable-area class="move-area">
+    <movable-view
+      class="move-view"
+      x="{{x}}"
+      y="0"
+      out-of-bounds="true"
+      damping="40"
+      bindchange="moveChange"
+      bindtouchend="touchEnd"
+      bindtap="closeSlide"
+      style="{{moveViewWdith}}"
+      direction="horizontal">
+      <view class="formal-content">
+        <view class="con-l"><image src="{{img}}"></image></view>
+        <view class="con-m">
+          <view class="con-mt">{{title}}</view>
+          <view class="con-mb">{{desc}}</view>
+        </view>
+        <view class="con-r">
+          <view class="con-rt">{{info}}</view>
+          <image wx:if="icon" class="con-rb" src="{{icon}}"></image>
+        </view>
+      </view>
+      <view
+        wx:for="{{renderItems}}" 
+        style="{{item.style}}"
+        wx:key="{{index}}"
+        data-item="{{item}}"
+        bindtap="handleAction"
+        class="slide-btn">{{item.text}}</view>
+    </movable-view>
+  </movable-area>
+</view>
+

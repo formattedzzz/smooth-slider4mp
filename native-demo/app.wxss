@@ -1,0 +1,6 @@
+view, scroll-view{
+  box-sizing: border-box;
+}
+.hover-class{
+  opacity: 0.8;
+}

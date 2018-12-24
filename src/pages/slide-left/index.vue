@@ -5,7 +5,7 @@
    </block>
    <div style="padding: 20px; text-align: center;">{{handleres}}</div>
  </div>
-</template>
+</template> 
 
 <script>
   import slideLeft from '@/components/slideLeft'

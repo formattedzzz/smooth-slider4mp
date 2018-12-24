@@ -97,7 +97,30 @@ npm run build --report
 
 ## 原生小程序版本
 
-正在写。。将使用slot插入显示内容
+```
+page.json
+{
+  "usingComponents": {
+    "slide-left": "/component/slide-left/index"
+  }
+}
+
+page.wxml
+
+<view class='page'>
+  <block wx:for="{{mockdata}}" wx:key="index">
+    <slide-left
+    img="{{item.img}}"
+    info="{{item.info}}"
+    title="{{item.title}}"
+    desc="{{item.desc}}"
+    icon="{{item.icon}}"
+    index="{{item.index}}"
+    bindhandle="handle"></slide-left>
+  </block>
+</view>
+
+```
 
 
 
