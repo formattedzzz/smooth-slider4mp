@@ -22,7 +22,7 @@ npm run build --report
 
 ## 使用
 
-组件基于mpvue框架实现,把对应组件拷贝到项目中即可
+组件基于mpvue框架实现,把对应组件拷贝到项目中即可
 
 ```js
 <template>
@@ -81,7 +81,7 @@ npm run build --report
 
 - 数据项配置。v-bind="data"
 
-因为mpvue框架对slot的支持非常糟糕且考虑到稳定性且实际需要比较简单所以内容布局是写好的
+因为mpvue框架对slot的支持非常糟糕且考虑到稳定性且实际需要比较简单所以内容布局是写好的
 
 ```
 {
