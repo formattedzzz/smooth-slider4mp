@@ -18,7 +18,7 @@ npm run build --report
 
 ## 效果图
 
-<img src="https://i.loli.net/2018/12/16/5c166c5d817ca.png" width="750" height="1334">
+<img src="https://i.loli.net/2018/12/16/5c166c5d817ca.png" width="375" height="667">
 
 ## 使用
 
