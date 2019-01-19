@@ -18,7 +18,7 @@ npm run build --report
 
 ## 效果图
 
-![](https://i.loli.net/2018/12/16/5c166c5d817ca.png)
+<img src="https://i.loli.net/2018/12/16/5c166c5d817ca.png" width="750" height="1334">
 
 ## 使用
 
